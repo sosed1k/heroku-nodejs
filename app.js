@@ -1,9 +1,12 @@
 var express = require('express');
 var app = express();
+var mongoose = require('mongoose');
 
 const tracks = require('./data/tracks.json');
 
 const port = process.env.PORT || 8080;
+
+mongoose.connect('mongodb://admin:Jetta7701*@ds161346.mlab.com:61346/danit');
 
 app.get('/', function (req, res) {
     res.send('Hello World!');
