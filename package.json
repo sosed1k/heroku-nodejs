@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sosed1k/heroku-nodejs/issues"
   },
-  "homepage": "https://github.com/sosed1k/heroku-nodejs#readme"
+  "homepage": "https://github.com/sosed1k/heroku-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
