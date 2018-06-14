@@ -3,7 +3,6 @@ var app = express();
 
 const tracks = require('./data/tracks.json');
 
-const hostname = '127.0.0.1';
 const port = process.env.PORT || 8080;
 
 app.get('/', function (req, res) {
@@ -24,6 +23,6 @@ app.get('/api/tracks/:id', function (req, res) {
     res.json(track);
 });
 
-app.listen(port, hostname,  function () {
-    console.log(`Express server running at http://${hostname}:${port}/`);
+app.listen(port, function () {
+    console.log(`Express server running at http://localhost:${port}/`);
 });

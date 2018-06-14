@@ -1,21 +1,21 @@
 {
-  "name": "demo-nodejs",
+  "name": "danit",
   "version": "1.0.0",
-  "description": "Demo nodejs express server",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gorserg/danit.git"
   },
   "author": "",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sosed1k/heroku-nodejs.git"
-  },
   "bugs": {
-    "url": "https://github.com/sosed1k/heroku-nodejs/issues"
+    "url": "https://github.com/gorserg/danit/issues"
   },
-  "homepage": "https://github.com/sosed1k/heroku-nodejs#readme",
+  "homepage": "https://github.com/gorserg/danit#readme",
   "dependencies": {
     "express": "^4.16.3"
   }
