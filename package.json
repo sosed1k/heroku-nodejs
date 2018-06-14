@@ -1,0 +1,19 @@
+{
+  "name": "demo-nodejs",
+  "version": "1.0.0",
+  "description": "Demo nodejs express server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sosed1k/heroku-nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sosed1k/heroku-nodejs/issues"
+  },
+  "homepage": "https://github.com/sosed1k/heroku-nodejs#readme"
+}
